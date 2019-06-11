@@ -1,0 +1,25 @@
+/* Selector {
+  Property: value;
+} */
+
+body {
+  background-image: url(milkyway.jpg);
+  background-size: cover;
+}
+h2 {
+  color: red;
+  background-color: black;
+  text-align: center;
+  border: 5px solid blue;
+}
+ p {
+   color: pink;
+ }
+
+ .border {
+   border-width: 20px 1px 10px 5px;
+ }
+ a {
+   text-decoration:none;
+   font-style: italic;
+ }

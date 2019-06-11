@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="../../index.html">Root index</a></li>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="htmlpractice.html">HTML Practice</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li>Register</li>
+      </ul>
+    </nav>
+  </header>
+  <div></div>
+  <span></span>
+  <form>
+    First Name: <input type="text" name="firstname"><br>
+    Last Name: <input type="text" name="lastname"><br>
+    Email:     <input type="text" name="email" required><br>
+    Password: <input type="password" name="password" minlength="5"><br>
+    Birthday: <input type="date" name="birthday"><br><br>
+    Gender: <br>
+    <input type="radio" name="gender" value="male"> Male<br>
+    <input type="radio" name="gender"value="female"> Female<br>
+    <input type="radio" name="gender"value="other"> Other<br><br>
+    Pets: <br>
+    <input type="checkbox" name="cat" id=""> Cat<br>
+    <input type="checkbox" name="dog" id=""> Dog<br><br>
+    Cars: <br>
+    <select name="cars" id="">
+      <option value="volvo" name="volvo">Volvo</option>
+      <option value="audi"  name="audi">Audi</option>
+    </select><br><br>
+    <input type="submit" value="Register!">
+    <input type="reset">
+</form>
+</body>
+</html>
+
+<!-- ?firstname=Charles&lastname=Fichter&
+email=chas%40dsostudio.com&
+password=12345&
+birthday=2018-10-03&
+gender=male&
+cat=on&dog=on&
+cars=audi -->

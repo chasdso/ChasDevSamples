@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+    <link rel="stylesheet" type="text/css" href="./Assets/css/style.css">
+    <title>Sentinel</title>
+  </head>
+  <body>
+      <script src="https://code.jquery.com/jquery-1.10.2.js"></script> 
+      <script src="./Assets/js/handlebars-v4.1.2.js"></script>  
+      <script type="text/javascript" src="./Assets/js/sentinelscript.js"></script>
+      
+    <h1>Sentinel</h1>
+      
+      <input type="checkbox"  id="all" onClick="toggle(this)" />All
+      <input type="button" class="classA" value="Suspend" id="suspend" onclick="init('suspend')"  style="height:30px;width:120px" />
+      <input type="button" class="classB" value="Resume"  id="resume" onclick="init('resume')"  style="height:30px;width:120px" />
+      <table>
+        <tr>
+          <td>
+            <table style="width:100%" id="pipelineContainer">
+              
+              <script>getBuildInfo();</script>
+              <script id="pipelineInfo" type="text/x-handlebars-template">
+                {{#each value}}
+                <tr>
+                  <td><input type="checkbox"  name="pipelines" value={{name}}></td>
+                  <td>{{name}}</td>
+                </tr>
+                {{/each}}
+              </script>
+            </table>
+        </td>
+        <td><textarea id="status" rows="82" cols="1" style="width:500px">Status return</textarea></td>
+      </tr>
+    </table>
+    <input type="button" class="classA" value="Suspend" id="suspend" onclick="init('suspend')"  style="height:30px;width:120px" />
+    <input type="button" class="classB" value="Resume"  id="resume" onclick="init('resume')"  style="height:30px;width:120px" />
+    
+  </body>
+   
+</html>

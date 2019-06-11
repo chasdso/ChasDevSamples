@@ -1,0 +1,12 @@
+[
+	{
+	"Id": "33b46846-bec0-42c5-8664-2f9c3f5cec34",
+    "Subject": "Customer service outbound;1002",
+    "EventType": " Sales order confirmation; Posting",
+    "Data": "1002-001589",
+    "EventTime": "2019-04-08T18:58:46.8272972Z",
+    "dataVersion": "",
+    "metadataVersion": "1",
+    "topic": "/resourceGroups/ent-eventgrid/providers/Microsoft.EventGrid/topics/customeroutbound"
+	}
+]

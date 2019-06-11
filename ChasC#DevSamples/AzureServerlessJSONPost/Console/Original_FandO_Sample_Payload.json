@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "Connection": "Keep-Alive",
+    "Host": "prod-21.westus2.logic.azure.com",
+    "aeg-subscription-name": "LOGICAPP34B8DDBB-2857-4D16-97D1-BA21A3F5E957",
+    "aeg-delivery-count": "0",
+    "aeg-data-version": "",
+    "aeg-metadata-version": "1",
+    "aeg-event-type": "Notification",
+    "Content-Length": "464",
+    "Content-Type": "application/json; charset=utf-8"
+  },
+  "body": {
+    "Id": "f2c6a976-80ad-485f-ae99-1730296d086a",
+    "Subject": "Sales order confirmation; 1002",
+    "EventType": " Sales order confirmation; Posting",
+    "Data": "<SalesId>",
+    "EventTime": "2018-07-05T09:28:14",
+    "dataVersion": "",
+    "metadataVersion": "1",
+    "topic": "/subscriptions/a124/resourceGroups/Columbia/providers/Microsoft.EventGrid/topics/AzureEventGrid-SalesOrder-Outbound"
+  }
+}
