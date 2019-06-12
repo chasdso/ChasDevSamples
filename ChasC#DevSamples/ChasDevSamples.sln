@@ -1,10 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.572
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28922.388
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Async_Task_Await", "Async_Task_Await\Async_Task_Await.csproj", "{AE7C9035-CED6-4E97-A877-5EA0E95CDDAD}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Brokeries.DataValidation", "Brokeries.DataValidation\Brokeries.DataValidation.csproj", "{256FDFDC-D013-459D-95DF-B3818E844F2E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsolePractice", "ConsolePractice\ConsolePractice.csproj", "{C2C5A6EA-7F8D-46FE-969E-7C429AB44F45}"
@@ -53,10 +51,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{AE7C9035-CED6-4E97-A877-5EA0E95CDDAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AE7C9035-CED6-4E97-A877-5EA0E95CDDAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AE7C9035-CED6-4E97-A877-5EA0E95CDDAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AE7C9035-CED6-4E97-A877-5EA0E95CDDAD}.Release|Any CPU.Build.0 = Release|Any CPU
 		{256FDFDC-D013-459D-95DF-B3818E844F2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{256FDFDC-D013-459D-95DF-B3818E844F2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{256FDFDC-D013-459D-95DF-B3818E844F2E}.Release|Any CPU.ActiveCfg = Release|Any CPU

@@ -1,0 +1,7 @@
+{
+  "profiles": {
+    "Csc.Res.AccountsPayable.Invoice.Inbound": {
+      "commandName": "Project"
+    }
+  }
+}

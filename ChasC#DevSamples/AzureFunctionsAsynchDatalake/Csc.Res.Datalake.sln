@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Csc.Res.Datalake", "Csc.Res.Datalake.csproj", "{6DE30303-ED90-46B5-9595-1D2508D07EA7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build(vsts-ci)", "build(vsts-ci)", "{1883D617-8CEB-45C8-8446-C6B266640783}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\vsts-ci\Csc.Res.Datalake.yml = ..\..\vsts-ci\Csc.Res.Datalake.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "release(ci)", "release(ci)", "{A612496C-80D3-4BA3-A348-16C76E5D4DEA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "res-datalake", "res-datalake", "{FC43A496-C135-48F5-A72F-CC07DDFAA36A}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\ci\res-datalake\c1-perfConfig.yml = ..\..\ci\res-datalake\c1-perfConfig.yml
+		..\..\ci\res-datalake\c1-sit2Config.yml = ..\..\ci\res-datalake\c1-sit2Config.yml
+		..\..\ci\res-datalake\devConfig.yml = ..\..\ci\res-datalake\devConfig.yml
+		..\..\ci\res-datalake\prodConfig.yml = ..\..\ci\res-datalake\prodConfig.yml
+		..\..\ci\res-datalake\template.json = ..\..\ci\res-datalake\template.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{55AE880F-8EEF-43CF-A5BA-8E35B98FA4BD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Csc.Res", "..\Csc.Res\Csc.Res.csproj", "{445F4158-9B54-4CC5-95C2-A53877A0C384}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6DE30303-ED90-46B5-9595-1D2508D07EA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DE30303-ED90-46B5-9595-1D2508D07EA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DE30303-ED90-46B5-9595-1D2508D07EA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DE30303-ED90-46B5-9595-1D2508D07EA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{445F4158-9B54-4CC5-95C2-A53877A0C384}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{445F4158-9B54-4CC5-95C2-A53877A0C384}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{445F4158-9B54-4CC5-95C2-A53877A0C384}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{445F4158-9B54-4CC5-95C2-A53877A0C384}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FC43A496-C135-48F5-A72F-CC07DDFAA36A} = {A612496C-80D3-4BA3-A348-16C76E5D4DEA}
+		{445F4158-9B54-4CC5-95C2-A53877A0C384} = {55AE880F-8EEF-43CF-A5BA-8E35B98FA4BD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D9BC6569-B72B-4971-9892-4EB422E53A45}
+	EndGlobalSection
+EndGlobal
