@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -6,8 +7,28 @@
     <meta name="theme-color" content="#000000">
     <link rel="stylesheet" type="text/css" href="./Assets/css/style.css">
     <title>Sentinel</title>
-  </head>
-  <body>
+   </head>
+    <body>
+        <!-- (I've added this form for a login - however - if we use an AppID
+          and secret for the app, not necessary actually to use a login like this
+          form. You can have full access to the REST API calls with just the
+          AppID and secret. I researched extensively making this login to ADD,
+          however, looked a bit more complex than I had time to implement)
+          <div class="login" id="loginForm">
+            <form action="processLogin" class="form-container">
+              <h1>Login</h1>
+          
+              <label for="aDDUserName"><b>Azure Username</b></label>
+              <input type="text" placeholder="Enter Azure Username" name="email" required>
+          
+              <label for="psw"><b>Password</b></label>
+              <input type="password" placeholder="Enter Password" name="psw" required>
+          
+              <button type="submit" class="btn">Login</button>
+              <button type="submit" class="btn cancel" onclick="closeForm()">Close</button>
+            </form>
+          </div>   -->
+
       <script src="https://code.jquery.com/jquery-1.10.2.js"></script> 
       <script src="./Assets/js/handlebars-v4.1.2.js"></script>  
       <script type="text/javascript" src="./Assets/js/sentinelscript.js"></script>
@@ -15,7 +36,7 @@
     <h1>Sentinel</h1>
       
       <input type="checkbox"  id="all" onClick="toggle(this)" />All
-      <input type="button" class="classA" value="Suspend" id="suspend" onclick="init('suspend')"  style="height:30px;width:120px" />
+      <input type="button" class="classA" value="Suspend" id="suspend" onclick="init('pause')"  style="height:30px;width:120px" />
       <input type="button" class="classB" value="Resume"  id="resume" onclick="init('resume')"  style="height:30px;width:120px" />
       <table>
         <tr>
@@ -36,7 +57,7 @@
         <td><textarea id="status" rows="82" cols="1" style="width:500px">Status return</textarea></td>
       </tr>
     </table>
-    <input type="button" class="classA" value="Suspend" id="suspend" onclick="init('suspend')"  style="height:30px;width:120px" />
+    <input type="button" class="classA" value="Suspend" id="suspend" onclick="init('pause')"  style="height:30px;width:120px" />
     <input type="button" class="classB" value="Resume"  id="resume" onclick="init('resume')"  style="height:30px;width:120px" />
     
   </body>
